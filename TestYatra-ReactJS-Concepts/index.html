@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>React-JS</title>
+</head>
+<body>
+    <div id="react-container"></div>
+
+    <script crossorigin src="https://unpkg.com/react@15.4.2/dist/react.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@15.4.2/dist/react-dom.js"></script>
+
+    <script>
+        //const element = React.createElement('h1',null,'First React JS')
+        const element = React.createElement('h1',{id:'demo'},'First React JS')
+        console.log('Element ',element);
+
+        ReactDOM.render(element,document.getElementById('react-container'))
+    </script>
+</body>
+</html>
