@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=McLaren|Permanent+Marker|Supermercado+One&display=swap');
+body{
+    background: #000;
+}
+.bg{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    top: 0;bottom: 0;left: 0;right: 0;
+    filter: brightness(0.8);
+}
+.header{
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    margin: auto;
+    top: 0;right: 0;left: 0;
+    background: rgb(88, 154, 253);
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 0 20px black;
+}
+h1{
+    position: absolute;
+    height: 80%;width: 100%;
+    margin: auto;left: 0;right: 0;top: 0;bottom: 0;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+.container{
+    position: fixed;
+    height: 60%;
+    width: 90%;
+    margin: auto;
+    top: 0;right: 0;left: 0;bottom: 0;
+}
+.place, .date, .temperature, .divider, .main, .maxmin_temp{
+    position: absolute ;
+    color: white;
+    font-family: 'Muli', cursive;
+    height: 100px;
+    width: 100%;
+    margin: auto;
+    top: 10%;
+    right: 0;left: 0;
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 0 0 20px black;
+}
+.date{
+    font-size: 17px;
+    top: 95px;
+}
+.temperature{
+    top:120px;
+    font-size: 60px;
+}
+.divider{
+    top: 200px;
+    font-size: 20px;
+}
+.main{
+    top: 240px;
+    font-size: 20px;
+}
+.maxmin_temp{
+    top: 280px;
+    font-size: 20px;
+}
+.footer{
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+    background: rgb(88, 154, 253);
+    bottom: -35px;left: 0;right: 0;
+    border-radius: 20px 20px 0 0;
+}
+.search{
+    position: absolute;
+    margin: auto;
+    bottom: 0;right: 0;left: 0;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    outline: none;border: none;
+    background: rgb(113, 255, 172);
+}
+.bar{
+    position: absolute;
+    height: 5px;
+    width: 30%;
+    background: rgb(0, 0, 0);
+    margin: auto;top: 20%;left: 0;right: 0;
+    border-radius: 50px;
+}

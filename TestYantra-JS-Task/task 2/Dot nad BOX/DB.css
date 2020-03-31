@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box
+}
+body{
+    background: #323232;
+    overflow: hidden;
+}
+.start-menu-container{
+    padding: 15px 30px;
+}
+.Main-screen-text{
+    font-size: 15px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 3px solid white;
+}
+.Start-button-css{
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #1c1c1c;
+    width: 200px;
+    height: 35px;
+    border-radius: 15px;
+    margin:5px;
+    position: relative;
+    transition: 500ms;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+.Start-button-css:hover{
+    font-size: 20px;
+    border-bottom: 3px solid black;
+    transform: scale(1.1);
+}
+
+.Rules-button-css{
+    border: none;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #1c1c1c;
+    width: 200px;
+    height: 35px;
+    margin:5px;
+    border-radius: 15px;
+    position: relative;
+    transition: 500ms;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+.Rules-button-css:hover{
+    font-size: 20px;
+    border-bottom: 3px solid black;
+    transform: scale(1.1);
+}
+
+.Creators-button-css{
+    border: none;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #1c1c1c;
+    margin:5px;
+    width: 200px;
+    height: 35px;
+    border-radius: 15px;
+    position: relative;
+    transition: 500ms;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+.Creators-button-css:hover{
+    font-size: 20px;
+    border-bottom: 3px solid black;
+    transform: scale(1.1);
+}
+
+.back-button-css{
+    border: none;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #1c1c1c;
+    width: 200px;
+    height: 35px;
+    border-radius: 15px;
+    position: absolute;
+    left: 285px;
+    transition: 500ms;
+    display: none;
+    top: 500px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+.back-button-css:hover{
+    font-size: 20px;
+    border-bottom: 3px solid black;
+    transform: scale(1.1);
+}
+.rules-text{
+    background-color: orange;
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+    border-bottom: 4px solid black;
+    border-top: 4px solid black;
+    margin: 155px auto;
+    display: none;
+}
+#body{
+    transition: 500ms;
+}
+.ui-color-panel{
+    background-color: orange;
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+    transition: 500ms;
+    border-bottom: 4px solid black;
+    border-top: 4px solid black;
+    margin: 155px auto;
+    display: none;
+
+}
+.textbox{
+    width: 250px;
+    height: 270px;
+    overflow: auto;
+    word-wrap: break-word;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+.menu-buttons{
+    width: 203px;
+    height: auto;
+    justify-content: center;
+    margin: 100px auto;
+    display: none;
+}
+.ui-color-buttons-holder{
+    width: 250px;
+    height: auto;
+    justify-content: center;
+    align-content: center;
+    padding: 5px 20px;
+}
+canvas{
+    margin-left: 110px;
+}
+.undergameui{
+    width: 204px;
+    height: auto;
+    margin: 580px auto;
+    position: absolute;
+    margin-left: 250px;
+    display: none;
+}
+.UI-options-button-css{
+    border: none;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #1c1c1c;
+    width: 200px;
+    margin:5px;
+    height: 35px;
+    border-radius: 15px;
+    position: relative;
+    transition: 500ms;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+.UI-options-button-css:hover{
+    font-size: 20px;
+    border-bottom: 3px solid black;
+    transform: scale(1.1);
+}
+.Under-Ui-button-css{
+    border: none;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #1c1c1c;
+    width: 200px;
+    height: 35px;
+    border-radius: 15px;
+    position: relative;
+    transition: 500ms;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+.Under-Ui-button-css:hover{
+    font-size: 20px;
+    border-bottom: 3px solid black;
+    transform: scale(1.1);
+}
+.Ui-color-button-css{
+    border: none;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #1c1c1c;
+    width: 200px;
+    height: 35px;
+    border-radius: 15px;
+    margin: 5px;
+    position: relative;
+    transition: 500ms;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+.Ui-color-button-css:hover{
+    font-size: 20px;
+    border-bottom: 3px solid black;
+    transform: scale(1.1);
+}
