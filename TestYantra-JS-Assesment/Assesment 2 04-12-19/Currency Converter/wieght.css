@@ -1,0 +1,15 @@
+body {}
+
+#grams {
+    height: 350px;
+    width: 100%;
+    color: black;
+    background-color: cyan;
+    margin-top: 5px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+footer {
+    margin-top: 5px;
+}

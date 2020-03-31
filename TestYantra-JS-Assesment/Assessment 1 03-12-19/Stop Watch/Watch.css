@@ -1,0 +1,112 @@
+*::selection {
+    background: none;
+}
+
+html {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-size: 16px;
+    cursor: default;
+}
+
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color:aquamarine;
+}
+#bordering {
+    border-radius: 50%;
+    padding-top:80px;
+    margin: 0 auto; 
+    background:black;
+    margin-bottom:50px;
+    height: 150px;
+    width: 675px; 
+    text-align: center;
+}
+
+#timer {
+    margin: 1.5em auto;
+    border: 0;
+    padding: 0;
+    width: 100%;
+    font-family: "Orbitron", sans-serif;
+    font-size: 4.5em;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+span {
+    display: inline-block;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    text-shadow: 0 0 5px #fff;
+}
+
+#mn {
+    width: 15%;
+}
+
+#sc {
+    width: 15%;
+}
+
+#buttons {
+    margin: 0 auto;
+    border: 0;
+    padding: 0.2em;
+    max-width: 4em;
+}
+
+#reset, #start {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0.2em 0.5em;
+    min-width: 2.5em;
+    max-width: 3.5em;
+    font-size: 0.3em;
+}
+
+#reset {
+    float: left;
+    border-color: red;
+    box-shadow: 0 0 5px red;
+    color: red;
+    text-shadow: 0 0 2px red;
+}
+
+#start {
+    float: right;
+    border-color: blue;
+    box-shadow: 0 0 5px blue;
+    color: blue;
+    text-shadow: 0 0 2px blue;
+}
+
+input[type=number] {
+    display: inline-block;
+    margin: 0.8em auto;
+    border: 0;
+    padding: 0.2em 0.3em;
+    min-width: 3em;
+    max-width: 2em;
+    font-size: 0.5em;
+    text-align: center;
+    box-shadow: 0 0 5px #fff;
+}
+
+#m, #s {
+    border-radius: 6px;
+}
+
+#m {
+    margin-right: 0.4em;
+}
+
+#s {
+    margin-left: 0.4em;
+}

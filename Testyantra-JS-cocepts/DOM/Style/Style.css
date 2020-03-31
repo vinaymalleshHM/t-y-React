@@ -1,0 +1,12 @@
+.add{
+    color: lime;
+    font-family: cursive;
+    font: outline;
+    border: 3px double darkmagenta;
+    background-color: mediumseagreen;
+    cursor: pointer;
+
+}
+.header {
+    padding: 40px;
+}

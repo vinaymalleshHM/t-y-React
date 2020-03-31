@@ -1,0 +1,23 @@
+.button_cont{
+    margin-left:44%;
+    margin-top:100px;
+    position:absolute;
+  }
+  
+  .quote {
+    max-width:60%;
+    height:70px;
+    margin-left:19%;
+    border-radius:25px;
+    padding:15px;
+    background: #80bfff;
+    text-align:center;
+  }
+  body {
+    background:#6673e5;
+  }
+  #tweet_sect {
+    margin-top:10px;
+    margin-left:70px;
+  }
+  

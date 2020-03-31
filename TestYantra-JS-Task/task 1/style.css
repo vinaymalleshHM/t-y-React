@@ -1,0 +1,56 @@
+.demo {
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    border-radius: 25px;
+    background-color: red;
+    padding: 10px;
+}
+
+.demo1 {
+    margin-left: 58%;
+}
+
+.form-control {
+    background-color: rgba(0, 0, 0, 0.514);
+}
+
+.demo2 {
+    margin-left: 5%;
+}
+
+#search:hover {
+    background-color: white;
+    outline: none;
+}
+
+.drop {
+    margin-top: 20%;
+    margin-left: 50%;
+}
+
+#hr {
+    box-shadow: black;
+}
+
+.aa {
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    border-radius: 25px;
+    background-color: rgba(128, 128, 128, 0.438);
+    padding: 10px;
+}
+
+.aaa:hover {
+    text-decoration: none;
+    color: blue
+}
+
+.yest {
+    border-radius: 25px;
+}
+
+.yest1 {
+    margin-left: 10%;
+}
